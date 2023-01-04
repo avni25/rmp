@@ -28,6 +28,7 @@ class App(QtWidgets.QMainWindow):
         print(w)
 
     def start(self):
+        print("1")
         listen_etas.start()
         self.ui.btn_scrape.setEnabled(False)
         self.ui.btn_stop1.setEnabled(True)
